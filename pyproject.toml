@@ -17,5 +17,5 @@ cli = [
 ]
 
 [project.scripts]
-myapp = "myapp:myapp.cli"
-myapp-gui = "myapp:myapp.gui"
+myapp = "myapp:cli.cli"
+myapp-gui = "myapp:gui.gui"

@@ -1,0 +1,3 @@
+[console_scripts]
+myapp = myapp:cli.cli
+myapp-gui = myapp:gui.gui

@@ -5,6 +5,7 @@
 # venv, other python stuff
 *__pycache__/*
 *.pyc
+myapp.egg-info/*
 
 # logging
 *.log
