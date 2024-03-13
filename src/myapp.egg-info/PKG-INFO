@@ -1,8 +1,0 @@
-Metadata-Version: 2.1
-Name: myapp
-Version: 0.0.1
-Requires-Python: >=3.10
-Provides-Extra: gui
-Requires-Dist: kivy; extra == "gui"
-Provides-Extra: cli
-Requires-Dist: click; extra == "cli"
