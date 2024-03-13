@@ -1,9 +1,0 @@
-Metadata-Version: 2.1
-Name: myapp
-Version: 0.0.1
-Summary: my_desc
-Home-page: https://website.com
-Author: John Smith
-Author-email: 
-Requires-Dist: click>=8.1.7
-Requires-Dist: kivy
