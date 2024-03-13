@@ -6,7 +6,7 @@ package.domain = org.test
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas
 source.include_patterns = myapp/**/*
-version = 0.0.1
+version = 0.1
 requirements = python3,kivy
 orientation = portrait
 
