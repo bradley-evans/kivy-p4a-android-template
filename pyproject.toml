@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "myapp"
+version = "0.0.1"
+requires-python = ">= 3.10"
+dependencies = []
+
+[project.optional-dependencies]
+gui = [
+    "kivy",
+    ]
+cli = [
+    "click",
+]
+
+[project.scripts]
+myapp = "myapp:myapp.cli"
+myapp-gui = "myapp:myapp.gui"
