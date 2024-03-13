@@ -1,0 +1,13 @@
+setup.py
+myapp/cli/__init__.py
+myapp/cli/cli.py
+myapp/gui/__init__.py
+myapp/gui/gui.py
+myapp/myapp.egg-info/PKG-INFO
+myapp/myapp.egg-info/SOURCES.txt
+myapp/myapp.egg-info/dependency_links.txt
+myapp/myapp.egg-info/entry_points.txt
+myapp/myapp.egg-info/requires.txt
+myapp/myapp.egg-info/top_level.txt
+myapp/utils/__init__.py
+myapp/utils/logging.py

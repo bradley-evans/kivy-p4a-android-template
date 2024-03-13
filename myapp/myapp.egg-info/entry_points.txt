@@ -1,0 +1,5 @@
+[console_scripts]
+myapp = myapp.cli:cli
+
+[gui_scripts]
+myapp-gui = myapp.gui:gui

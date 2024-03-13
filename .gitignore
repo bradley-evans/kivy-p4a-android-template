@@ -1,0 +1,32 @@
+# binaries and executables
+*.exe
+
+
+# venv, other python stuff
+*__pycache__/*
+*.pyc
+
+# logging
+*.log
+
+# generated documentation
+docs/*
+
+# sublime
+*.sublime*
+
+# vagrant
+vagrant/.vagrant/*
+
+# models
+models/*
+
+# transient development files (e.g. swapfiles)
+.swp
+old/*
+
+# build objects
+bin/*
+build/*
+.buildozer/*
+*egg-info/*
