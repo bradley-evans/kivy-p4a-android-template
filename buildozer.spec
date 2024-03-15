@@ -4,8 +4,9 @@ title = My Application
 package.name = myapp
 package.domain = org.test
 source.dir = .
-source.include_exts = py,png,jpg,kv,atlas
+source.include_exts = py,png,jpg,kv,atlas,toml
 source.include_patterns = myapp/**/*
+source.exclude_patterns = setup.py, pyproject.toml
 requirements = python3,kivy
 orientation = portrait
 version = 0.0.1
@@ -18,8 +19,8 @@ android.permissions = android.permission.INTERNET, (name=android.permission.WRIT
 android.archs = arm64-v8a, armeabi-v7a
 android.allow_backup = True
 p4a.branch = master
-p4a.setup_py = True
-android.no-byte-compile-python = False
+p4a.setup_py = False
+# android.no-byte-compile-python = False
 
 [buildozer]
 
